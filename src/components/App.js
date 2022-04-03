@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
     return (
         <div id='app'>
-            <h1>Someday this will be a podcast player</h1>
+            <h1>Hello world!</h1>
         </div>
     );
 };
