@@ -1,18 +1,17 @@
 import React from 'react';
-// import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './css/App.css';
-// import {
-//     Home
-// } from '.';
+import {
+    Home
+} from '.';
 
 const App = () => {
     return (
-        <div id='app'>
-            <h1>Hello World!</h1>
+        <div id="App">
+            <Routes>
+                <Route path='/' element={<Home />} />
+            </Routes>
         </div>
-        // <Routes>
-        //     <Route path='/' element={<Home />} />
-        // </Routes>
     );
 };
 
